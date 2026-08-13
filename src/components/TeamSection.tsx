@@ -1,5 +1,6 @@
 import React from "react";
 import ScrambledText from "./ScrambledText";
+import { TEAM_MEMBERS } from "@/data/team";
 
 function SpeechBubble({
   name,
@@ -52,26 +53,7 @@ function SpeechBubble({
 }
 
 export function TeamSection() {
-  const members = [
-    {
-      name: "Kowshika S",
-      linkedin: "https://www.linkedin.com/in/kowshika-selvakumar/",
-      posClass: "left-[6.5%] top-[43.5%]",
-      tailType: "right" as const,
-    },
-    {
-      name: "Abdul Munaf Z",
-      linkedin: "https://www.linkedin.com/in/abdul-munaf-z-6380a8251/",
-      posClass: "left-[36%] top-[40.5%]",
-      tailType: "right" as const, // tail points down-right (on the right side of the bubble)
-    },
-    {
-      name: "Prathiksh J",
-      linkedin: "https://www.linkedin.com/in/prathiksha-j-169715354/",
-      posClass: "right-[8.5%] top-[43.5%]",
-      tailType: "left" as const,
-    },
-  ];
+  const members = TEAM_MEMBERS;
 
   return (
     <section id="team" className="grain bg-goa-green py-16 relative overflow-hidden">
