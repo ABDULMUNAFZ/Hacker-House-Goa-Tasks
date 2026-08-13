@@ -1166,7 +1166,7 @@ For final image generation, use a reliable client-side library such as:
 
 html-to-image
 
-or:
+or
 
 dom-to-image-more
 
