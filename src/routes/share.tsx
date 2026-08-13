@@ -14,7 +14,7 @@ export const Route = createFileRoute("/share")({
   head: ({ search }) => {
     const title = "Hacker House Goa 2026 Card";
     const desc = search.caption || "Check out my custom Hacker House Goa 2026 card!";
-    const imageUrl = search.image || "https://hacker-house-goa-task.vercel.app/goa-logo.png";
+    const imageUrl = search.image || "https://teammavericks.tech/goa-logo.png";
     const videoUrl = search.video;
 
     const metaTags: any[] = [

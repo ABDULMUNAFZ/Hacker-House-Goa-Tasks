@@ -74,7 +74,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "Team Tech Mavericks" },
       { property: "og:type", content: "website" },
+      { property: "og:title", content: "HH Goa 2026 — Frame Your Goa" },
+      {
+        property: "og:description",
+        content:
+          "Create your HH Goa 2026 Builder Card, frame your selfie, and share your Goa identity with #FrameInGoa.",
+      },
+      { property: "og:url", content: "https://teammavericks.tech" },
+      { property: "og:image", content: "https://teammavericks.tech/team-bg.png" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "HH Goa 2026 — Frame Your Goa" },
+      {
+        name: "twitter:description",
+        content:
+          "Create your HH Goa 2026 Builder Card, frame your selfie, and share your Goa identity with #FrameInGoa.",
+      },
+      { name: "twitter:image", content: "https://teammavericks.tech/team-bg.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },

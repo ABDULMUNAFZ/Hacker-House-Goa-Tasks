@@ -3,11 +3,11 @@ export const REQUIRED_HASHTAG = "#FrameInGoa";
 export const DEFAULT_CAPTION = `I just got my HH Goa 2026 Builder Card 🌴🔥
 
 See you in Goa — 28–31 Oct 2026.
-Made mine at hacker-house-goa-task.vercel.app
+Made mine at teammavericks.tech
 
 #FrameInGoa #HackerHouseGoa #HHGoa2026 #Builders @hhgoa`;
 
-export const SITE_URL = "https://hacker-house-goa-task.vercel.app";
+export const SITE_URL = "https://teammavericks.tech";
 
 /** The hashtag is non-negotiable — restore it if the user edited it out. */
 export function withHashtag(caption: string) {
